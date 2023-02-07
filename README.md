@@ -1,5 +1,6 @@
 # BOOK_CLUB_FOXSENSE
 A book club app created for the foxsense hackathon
+-used Google Books API for the rendering books
 
 SNAPSHOTS 
 
