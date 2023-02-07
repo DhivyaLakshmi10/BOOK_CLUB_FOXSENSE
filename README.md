@@ -3,7 +3,6 @@ A book club app created for the foxsense hackathon
 
 SNAPSHOTS 
 
-![Screenshot (135)](https://user-images.githubusercontent.com/76260843/217234292-cd7e80a1-117d-4afc-98ef-870bd3bb8a87.png)
 ![Screenshot (136)](https://user-images.githubusercontent.com/76260843/217234296-96748138-99c7-47c5-ab37-57b1f71a3ec9.png)
 ![Screenshot (137)](https://user-images.githubusercontent.com/76260843/217234307-e05defcd-c449-4786-bb27-e62e705a6652.png)
 ![Screenshot (138)](https://user-images.githubusercontent.com/76260843/217234318-2431afe6-3015-4d6e-ba81-a3f42f81ce57.png)
