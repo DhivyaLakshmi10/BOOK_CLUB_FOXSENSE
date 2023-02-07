@@ -1,0 +1,402 @@
+/* FONTS AND ICONS */
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+/* BASIC HTML SELECTORS */
+* {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 20px;
+}
+
+html {
+  padding: 20px;
+}
+
+select {
+  font-size: 25px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Tajawal', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   margin-top: 20px;
+ }
+
+ li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 3px;
+    text-transform: uppercase;
+ }
+
+ input {
+   padding: 10px;
+   margin: 10px;
+ }
+
+/* LOGO */
+ .logo {
+   float: left;
+   /* font-family: 'Arima Madurai', cursive; */
+   font-family: 'Homemade Apple', cursive;
+   margin-left: 20px;
+   font-size: 35px;
+   letter-spacing: 5px;
+ }
+
+/* HOME PAGE/ LOGIN AND SIGNUP */
+.loginform, .signupform{
+   padding: 20px;
+   text-align: center;
+   display: inline-block;
+   margin: 50px;
+   padding-left: 80px;
+   padding-right: 80px;
+   background-color: white;
+   font-size: 20px;
+   box-shadow: 0 15px 40px rgba(250, 250, 250, .50);
+   border-radius: 3px;
+ }
+
+.loginpage, .signuppage {
+   background-image: url("https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9731a56510305fd6f05aeaa9d68e41e3&auto=format&fit=crop&w=1650&q=80");
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100%;
+   background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+}
+
+.homepage {
+  background-image: url("https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9731a56510305fd6f05aeaa9d68e41e3&auto=format&fit=crop&w=1650&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.welcome-header {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+#welcomemessage {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+ /* USER LINKS AND GREEN NAV BAR */
+ .userlinks {
+   display: inline-block;
+   justify-content: center;
+   padding: 15px;
+   text-transform: uppercase;
+   color: white;
+ }
+
+ .container {
+   text-align: center;
+   margin-bottom: 20px;
+   background-color: rgba(25,25,25, .8);
+   box-shadow: 10px 15px 30px rgba(0, 0, 0, .20);
+   border-radius: 3px;
+ }
+
+ a,a:visited,a:hover,a:active{
+   -webkit-backface-visibility:hidden;
+           backface-visibility:hidden;
+ 	position:relative;
+   transition:0.5s color ease;
+ 	text-decoration:none;
+ 	color:#000000;
+ }
+
+ a:hover {
+ 	color:#000000;
+ }
+
+ a.after:after {
+   content: "";
+   transition:0.5s all ease;
+   -webkit-backface-visibility:hidden;
+           backface-visibility:hidden;
+   position:absolute;
+ }
+
+ a.after:after {
+   bottom:-0.25em;
+   height:1px;
+   height:0.05rem;
+   width:0;
+   background: white;
+ }
+
+ a.first:after {
+   left:0;
+ }
+
+ a.after:hover:after{
+   width:100%;
+ }
+
+ /* USER FEED */
+ .secondary-header {
+   text-transform: uppercase;
+   letter-spacing: 5px;
+ }
+
+ .user-tab-headers {
+   margin: 50px;
+ }
+
+ .feed-headings {
+   margin: 30px;
+ }
+
+ .eventForm {
+   padding: 20px;
+ }
+
+ .eventFormInput {
+   margin: 5px;
+ }
+
+ .profileimage {
+   -webkit-shape-outside: circle(50% at 50% 50%);
+   shape-outside: circle(50% at 50% 50%);
+   -webkit-clip-path: circle(50% at 50% 50%);
+   clip-path: circle(50% at 50% 50%);
+   transition: all .2s;
+   box-shadow: 0 20px 40px rgba(0, 0, 0,.2);
+   width: 50px;
+ }
+
+ .profileimage:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0,.3);
+ }
+
+ /* HTML SELECT ELEMENT FOR FILTERING BOOKS AND CHANGE BOOK CATEGORY */
+ .filter {
+   padding: 50px;
+   margin-left: 50px;
+   font-size: 18px;
+ }
+
+ /* SEARCH BARS */
+ .searchTerm:focus{
+   color: #000000;
+ }
+
+ .searchbar {
+   margin: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+ }
+
+ .searchbookcard {
+   margin: 20px;
+   padding: 20px;
+   display: inline-block;
+   max-width: 50;
+   box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+ }
+
+ .searchbookimage {
+   float: left;
+   padding: 20px;
+ }
+
+ .search {
+   width: 100%;
+   position: relative;
+ }
+
+ .searchTerm {
+   float: left;
+   width: 100%;
+   padding: 20px;
+   border-radius: 5px;
+   color: #353538;
+ }
+
+ /* BUTTONS */
+ .button {
+   padding: 5px;
+   margin: 10px;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-family: 'Tajawal', sans-serif;
+   box-shadow: 10px 15px 20px rgba(0, 0, 0, .15);
+   border-radius: 3px;
+   background-color: white;
+   cursor: pointer;
+ }
+
+ .button:active {
+ 	box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+ }
+
+ .button:hover {
+ 	opacity: 0.85;
+ }
+
+ /* EVENT CARDS ON SEARCH PAGE */
+ .searcheventcard {
+   margin: 20px;
+   padding: 50px;
+   display: inline-block;
+   text-align: center;
+   width: 35vw;
+   height: 20vw;
+   overflow: scroll;
+   box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+   transition: all .4s;
+ }
+
+ .searcheventcard:hover {
+   transform: translateY(-10px) scale(1.03);
+ }
+
+/* EVENT PAGE */
+.eventPageContainer {
+  max-height: 100vw;
+}
+
+.eventPagecol1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+
+.eventPagecol2 {
+  float: right;
+  width: 65%;
+  max-height: 100vw;
+  overflow: scroll;
+}
+
+/* BOOK CLUB PAGE COMMENT SECTION */
+.commentContainer {
+   margin: 5px;
+   padding: 5px;
+ }
+
+ .commentCard {
+   margin: 5px;
+   padding: 5px;
+   box-shadow: 0 25px 25px rgba(0, 0, 0, .15);
+ }
+
+ .commentdate {
+   font-size: 12px;
+ }
+
+/* REVIEW CARD */
+.reviewcard {
+  margin: 30px;
+  padding: 20px;
+  max-width: 80vw;
+  margin-bottom: 30px;
+  display: block;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+
+/* BOOK CARDS */
+.userbookcard {
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+  width: 40vw;
+  height: 25vw;
+  justify-content: center;
+  overflow: scroll;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+  transition: all .4s;
+}
+
+.userbookcard:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+.cardimage {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+
+.cardimage:hover {
+  cursor: pointer;
+}
+
+/* INPUT FIELDS BOOK CARDS */
+.reviewform {
+  padding: 20px;
+}
+
+.inputfieldsreview {
+  padding: 5px;
+  float: left;
+}
+
+/* FAVORITE BOOK HEART ICON */
+.fas:hover, .fa-heart:hover {
+  cursor: pointer;
+}
+
+/* STAR RATINGS ON BOOK CARDS */
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+ float: right;
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.checked {
+  color: orange;
+}
